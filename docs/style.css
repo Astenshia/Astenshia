@@ -65,7 +65,36 @@ nav .onglets a{
 }
 
 /*blog section info*/
+.date{
+    padding: 10px;
+    margin-top: 40px;
+    text-align: left;
+}
 
+.collab {
+    padding: 10px;
+    margin-top: 40px;
+    text-align: left;
+}
+.langages{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.right a{
+    text-decoration: none;
+    color:rgb(233, 144, 10);
+    margin-left:50px;
+    padding: 15px;
+}
+
+.right a:hover{
+    color:chartreuse;
+    text-shadow: darkred;
+}
+.description{
+    margin-bottom: 15px;
+}
 .articles{
     margin-top: 30px;
 }
@@ -111,7 +140,7 @@ nav .onglets a{
 .articles .left img{
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
+    height: auto;
     width: 500px;
     border-radius:10px 10px 10px 10px ;
     margin-right: 4%;
@@ -124,6 +153,7 @@ nav .onglets a{
     margin-left: 7%;
     margin-right: 2%;
     text-align: justify;
+    font-size: 25px;
 }
 
 .articles div div h1{
@@ -196,6 +226,7 @@ nav .onglets a{
     margin-left: 7%;
     margin-right: 2%;
     text-align: justify;
+    font-size: 25px;
 }
 
 
@@ -329,11 +360,11 @@ nav .onglets a{
     display: flex;
     flex-wrap: wrap;
     height: 300px;
-    width: 500px;
+    width: auto;
     border-radius:10px 10px 10px 10px ;
     margin-right: 4%;
-
-
+    margin-top: 10%;
+    margin-bottom: 1%;
 }
 
 .articles4 .right{
@@ -343,6 +374,7 @@ nav .onglets a{
     margin-left: 7%;
     margin-right: 2%;
     text-align: justify;
+    font-size: 25px;
 }
 
 .articles4 div div h1{
@@ -582,6 +614,20 @@ footer .social-media p{
         margin-bottom: 5%;
 
     
+    }
+
+    .articles .right{
+        font-size: 20px;
+    }
+
+    .articles2 .right{
+        font-size: 20px;
+    }
+    .articles3 .right{
+        font-size: 20px;
+    }
+    .articles4 .right{
+        font-size: 20px;
     }
     
     .articles3 .feuilleL{
