@@ -4,22 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astenshia's BLOG</title>
+    <meta name="author" content="Astenshia">
+    <meta name="description" content="Astenshia website">
+    <!--- <meta http-equiv="refresh" content="0; url=astenshia.github.io/Astenshia"> ---->
+    <meta name="keywords" content="Astenshia; savelvioux; savel-vioux; claire savel-vioux; claire savel vioux; savel; vioux; claire savel; claire vioux; astenshia; Claire Savel-Vioux;">
+    
+    <!-- Facebook -->
+    <meta name="og:title" content="Astenshia website">
+    <meta name="og:description" content="Astenshia website">
+    <!--- <meta name="canonical" content="astenshia.github.io/Astenshia"> -->
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Astenshia website">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
         
 <body>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <!---------Navigation------------>
     <nav>
         <h1>Astenshia</h1>
         <div class="onglets">
-                <a href="#">HOME</a>
-                <a href="#">ME</a>
+                <a href="#" class="active">HOME</a>
+                <a href="#me">ME</a>
                 <a href="inspi.html">INSPI</a>
                 <a href="blog.html">BLOG</a>           
         </div>
     </nav>
+    <div id="spacer"></div>
     <!---x------Navigation--------x--->
     <section>
         <div class="homepicture">
@@ -27,17 +41,17 @@
         </div>
     </section>
     <section class="feuilles">
-        <div class="feuillelinkright">
-            <a href="blog.html">A little bit of computer science</a>
+        <div class="feuillelinkright" id="me">
+            <a href="blog.html#info">A little bit of computer science</a>
         </div>
         <div class="feuillelinkleft">
-            <a href="blog.html">Some kinds of art</a>
+            <a href="blog.html#arts">Some kinds of art</a>
         </div>
         <div class="feuillelinkright">
-            <a href="blog.html">Small actor show</a>
+            <a href="blog.html#cinema">Small actor show</a>
         </div>
         <div class="feuillelinkleft">
-            <a href="blog.html">A sprinkle of reading</a>
+            <a href="blog.html#book">A sprinkle of reading</a>
         </div>
         <div class="feuillelinkright">
             <a href="inspi.html">AND LOTS OF PLANTS</a>
@@ -48,10 +62,10 @@
     <footer>
         <h2>&copy; 2022 by Claire Savel-Vioux</h2>
         <div class="social-media">
-            <p><i class="fas fa-at"></i></p>
-            <p><i class="fab fa-linkedin"></i></p>
-            <p><i class="fab fa-twitter"></i></p>
-            <p><i class="fab fa-youtube"></i></p>
+            <p><a href="mailto:claire.savelvioux@gmail.fr"><i class="fas fa-at"></i></a></p>
+            <p><a href="https://www.linkedin.com/in/claire-savel-vioux-2aa560213/"><i class="fab fa-linkedin"></i></a></p>
+            <p><a href="https://twitter.com/astenshia"><i class="fab fa-twitter"></i></a></p>
+            <p><a href="https://www.youtube.com/@lacreationetcaetera5418"><i class="fab fa-youtube"></i></a></p>
         </div>
     </footer>
     <!----x------Footer------------x---->

@@ -21,7 +21,7 @@
 body {
    
     font-family: 'Rajdhani', sans-serif;
-    background-color: rgba(141, 241, 78, 0.288);
+    background-color: rgba(58, 233, 166,0.2);
 }
 
 .blog{
@@ -29,12 +29,36 @@ body {
 }
 /*La barre de nav*/
 nav {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background:rgb(220, 255, 238);
-    padding: 0 2rem; /*peut etre à retirer*/
+    background:rgb(179, 247, 224);
+    padding: 7px;
     
+    min-width: 100%;
+    max-width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    height: 90px;
+
+    transition: .3s all ease-in-out;
+}
+
+#spacer {
+    height: 90px;
+    background-color: white;
+}
+
+nav.scrollview {
+    background-color: rgb(179, 247, 224, .5);
+}
+
+nav.goingdown {
+    top: -105px;
 }
 
 nav h1{
@@ -57,6 +81,16 @@ nav .onglets a{
     font-weight: bold;
     font-size: 30px;
     padding: 1rem 0;
+
+    transition: .2s all ease-in;
+}
+
+nav .onglets a:hover{
+    text-shadow: 0 2px 2px rgb(21, 85, 29);
+}
+
+nav .onglets a.active {
+    border-bottom: 3px solid rgb(21, 85, 29);
 }
 .homepicture{
     max-height: 500px;
@@ -312,6 +346,7 @@ nav .onglets a{
     margin-left: 7%;
     margin-right: 2%;
     text-align: justify;
+    font-size: 25px;
 }
 
 .articles3 div div h1{
@@ -321,6 +356,7 @@ nav .onglets a{
     text-align: center;
     text-shadow:2px 2px 2px rgba(21, 88, 47, 0.753);
 }
+
 
 
 /*blog section livres*/
@@ -396,6 +432,139 @@ nav .onglets a{
     text-shadow:2px 2px 2px rgba(240, 203, 181, 0.753);
 }
 
+/* inspi logos*/
+
+.arts h3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(8, 70, 34);
+    font-family: 'Lobster', cursive;
+    margin-top: 40px;
+
+}
+
+.logos{
+        
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(122, 190, 32);
+    /*justify-content: center;*/
+    padding: 25px;
+    border-radius:2px 200px 30px 200px ;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+.logos p{
+    text-align: center;
+    font-weight: bold;
+    margin: 1%;
+
+}
+
+.logos img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: auto;
+    padding: 10px;
+    border-radius:60px 60px 60px 60px ;
+
+}
+/*inktober*/
+
+.inktober {
+    
+        background-color:rgb(32, 190, 53);
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        justify-content: center;
+        padding: 25px;
+        border-radius:200px 2px 200px 30px ;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    
+
+}
+
+.inktober h4{
+    font-family: 'Shadows Into Light Two', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(8, 70, 34);
+    margin-top: 40px;
+    margin : 20%;
+}
+
+.inktober p{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.inktober img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 230px;
+    width: auto;
+    padding: 10px;
+    border-radius:60px 60px 60px 60px ;
+    margin: 2%;
+    
+
+}
+
+/* inspi digital */
+
+
+.digital{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(38, 121, 74);
+    justify-content: center;
+    padding: 25px;
+    border-radius:200px 2px 200px 30px ;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+
+}
+
+
+.digital p{
+    text-align: center;
+    font-weight: bold;
+    margin: 1%;
+
+}
+
+.digital img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 380px;
+    width: auto;
+    padding: 10px;
+    border-radius:60px 60px 60px 60px ;
+
+}
 
 
 
